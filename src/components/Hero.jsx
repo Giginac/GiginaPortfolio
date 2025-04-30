@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../assets/Hero.png';
+import hero from '../assets/hero.png';
 import facebook from '../assets/facebook.png'; 
 import github from '../assets/github.png'; 
 import linkedin from '../assets/linkedin.png'; 

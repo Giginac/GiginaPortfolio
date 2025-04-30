@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import portfolio from '../assets/portfolio.png';
-import portfolio1 from '../assets/portfolio1.png';
+import portfolio1 from '../assets/Portfolio1.png';
 import portfolio2 from '../assets/portfolio2.png';
 import portfolio3 from '../assets/portfolio3.png';
 import portfolio4 from '../assets/portfolio4.png';
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Portfoliio",
+    title: "Portfolio",
     description: "clean, intuitive, and interactive portfolio site. Built with React, Tailwind, Three.js, and Framer Motion, blends thoughtful design with dynamic, immersive tech.",
     technologies: ["React", "Framer Motion", "Three.js", "Tailwind Css"],
     github: "https://github.com/Giginac/UXportfolio_React",

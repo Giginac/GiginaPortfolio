@@ -22,8 +22,8 @@ const projects = [
     title: "Fitness Website",
     description: "The site includes multiple sections such as a hero banner, membership plans, testimonials. Emphasis was placed on user engagement with subtle motion effects.",
     technologies: ["React", "Framer motion", "Tailwind CSS"],
-    github: "https://github.com/oualiCode/Portfolio-website",
-    demo: "https://portfolio-website-codepink.netlify.app/",
+    github: "https://github.com/Giginac/GymWebsite_React",
+    demo: "https://www.fitnesscenter.space/",
     image: portfolio1
   },
   {

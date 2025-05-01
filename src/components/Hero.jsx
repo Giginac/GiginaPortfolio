@@ -4,7 +4,7 @@ import facebook from '../assets/facebook.png';
 import github from '../assets/github.png'; 
 import linkedin from '../assets/linkedin.png'; 
 import instagram from '../assets/instagram.png'; 
-import Gigi from '../assets/GiginaR_CV .pdf'; 
+import Gigi from '../assets/GiginaR_CV.pdf'; 
 
 /**
  * Hero Component - The main banner section of the portfolio
@@ -74,7 +74,7 @@ export default function Hero() {
             <div className="flex justify-center">
               <a 
                 href={Gigi} 
-                download="GiginaR_CV .pdf"
+                download="GiginaR_CV.pdf"
                 className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 
                 focus:outline-none hover:bg-yellow-400 rounded-full text-lg
                 hover:shadow-[0_0_20px_rgba(255,100,100,0.5)] transition-all"

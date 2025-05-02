@@ -59,7 +59,7 @@ export default function Hero() {
             <h1 className="title-font sm:text-4xl text-2xl mb-4 font-bold text-white-900">
               Hi! I'm <span className="text-yellow-500">Gigina Rajesh</span>
             </h1>
-            <h2 className="sm:text-3xl mb-4 font-bold text-white-950">
+            <h2 className="sm:text-3xl mb-4 font-bold text-gray-200">
               Frontend Software Engineer
             </h2>
             

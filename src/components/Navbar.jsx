@@ -60,8 +60,8 @@ const Navbar = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-700
-                 hover:bg-gray-50 hover:text-gray-900"
+                className="block rounded-md px-3 py-2 text-base font-medium text-white
+                 hover:bg-gray-50 hover:text-yellow-500/80"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.label}

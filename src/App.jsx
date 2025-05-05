@@ -8,16 +8,21 @@ import Skills from './components/Skills'
 import Projects from './components/projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer' 
+import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
+ 
   useEffect(()=>{
     AOS.init({
       duration: 1000, 
     });
+   
   },[]);
   return (
+
     <>
     <ParticleBackground />
+    <ToastContainer/>
     <Navbar />
     <Hero />
     <Skills />
@@ -25,6 +30,7 @@ const App = () => {
     <Contact />
     <Footer />
     </>
+     
   )
 }
 

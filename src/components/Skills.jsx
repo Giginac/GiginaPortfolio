@@ -12,6 +12,8 @@ import Jira from "../assets/jira.svg";
 import git from "../assets/git.svg";
 import figma from "../assets/Figma.png";
 import php from "../assets/php.svg";
+import shopify from "../assets/shopify.svg";
+import wordpress from "../assets/wordpress.svg";
 
 // Array of skill objects with image, name, and description
 const skills = [
@@ -27,8 +29,9 @@ const skills = [
   {img: Jira, name: "Jira"},
   {img: github, name: "Github"},
   {img: aws, name: "AWS"},
-  {img: php, name: "PHP"}
-
+  {img: php, name: "PHP"},
+  {img: shopify, name: "Shopify"},
+  {img: wordpress, name: "Wordpress"}
 
 ];
 

@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Social Media Links */}
           <div className="flex space-x-4">
             <a 
-              href="#" 
+              href="https://github.com/Giginac" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"
@@ -29,7 +29,7 @@ const Footer = () => {
               <FaGithub size={20} />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/gigina-rajesh14/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"
@@ -47,7 +47,7 @@ const Footer = () => {
               <FaTwitter size={20} />
             </a>
             <a 
-              href="#" 
+              href="mailto:giginacleetus18@gmail.com" 
               className="text-gray-800 hover:text-gray-900 transition-colors duration-300"
               aria-label="Email"
             >
@@ -58,6 +58,11 @@ const Footer = () => {
           {/* Additional Navigation Links */}
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-4 text-sm">
+            <li>
+                <a href="#Home" className="text-gray-700 hover:text-gray-950 transition-colors duration-300">
+                  Home
+                </a>
+              </li>
               <li>
                 <a href="#skills" className="text-gray-700 hover:text-gray-950 transition-colors duration-300">
                   My skills

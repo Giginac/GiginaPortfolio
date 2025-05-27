@@ -65,7 +65,7 @@ export default function Hero() {
             
             {/* Description */}
             <p className="mb-8 leading-relaxed text-white max-w-lg">
-            Technically sound professional with 5+ years of experience in building dynamic and responsive web applications.
+            Technically sound professional with 4+ years of experience in building dynamic and responsive web applications.
             I am skilled at transforming complex design requirements into performant, user-friendly interactive interfaces with
              modern JavaScript frameworks.
             </p>

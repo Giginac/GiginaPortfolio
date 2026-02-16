@@ -14,25 +14,26 @@ import figma from "../assets/Figma.png";
 import php from "../assets/php.svg";
 import shopify from "../assets/shopify.svg";
 import wordpress from "../assets/wordpress.svg";
-
+import webflow from "../assets/Webflow.png";
+ 
 // Array of skill objects with image, name, and description
 const skills = [
   {img: html5, name: "HTML5"},
   { img: css, name: "CSS3" },
   { img: javascript, name: "JavaScript"},
   { img: bootstrap, name: "Bootstrap"},
-  { img: react, name: "React" },
   { img: tailwind, name: "Tailwind CSS"},
-  { img: vue, name: "Vue" },
   { img: figma, name: "Figma" },
+  { img: webflow, name: "Webflow" },
+  {img: shopify, name: "Shopify"},
+  {img: wordpress, name: "Wordpress"},
+  { img: react, name: "React" },
+  { img: vue, name: "Vue" },
   { img: git, name: "Git" },
   {img: Jira, name: "Jira"},
   {img: github, name: "Github"},
   {img: aws, name: "AWS"},
-  {img: php, name: "PHP"},
-  {img: shopify, name: "Shopify"},
-  {img: wordpress, name: "Wordpress"}
-
+  {img: php, name: "PHP"}
 ];
 
 const Skills = () => {
@@ -50,10 +51,10 @@ const Skills = () => {
         {/* Section title */}
         <div className="text-center mb-16 group">
         <h2 className="text-3xl font-bold text-white mb-2">
-            My <span className="text-yellow-500">Skills</span>
+            Technical <span className="text-yellow-500">Skills</span>
           </h2>
           <p className="text-gray-900 max-w-2xl mx-auto">
-          Technologies I've mastered through experience
+          Some Tools and Technologies I've mastered through experience
           </p>
           
         </div>

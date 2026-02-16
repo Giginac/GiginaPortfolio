@@ -2,16 +2,22 @@ import React, { useState } from "react";
 import portfolio from '../assets/portfolio.png';
 import portfolio1 from '../assets/Portfolio1.png';
 import portfolio2 from '../assets/ecommerce.png';
-import portfolio3 from '../assets/portfolio2.png';
-import portfolio4 from '../assets/portfolio3.png';
-import portfolio5 from '../assets/portfolio4.png';
-import portfolio6 from '../assets/portfolio5.png';
+import Flowcraft from '../assets/Flowcraft.png';
 import { FiGithub, FiExternalLink, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const projects = [
-  {
+   {
     id: 1,
-    title: "Real Estate Website",
+    title: "FlowCraft",
+    description: "A scalable performant digital marketing website built in webflow using reusable components and CMS collections. Adding custom animations using GSAP made it more interactive.",
+    technologies: ["Webflow", "HTML5" ,"CSS3", "GSAP"],
+    github: "",
+    demo: "https://www.flowcraft-tech.online//",
+    image: Flowcraft
+  },
+  {
+    id: 2,
+    title: "Rise Estates",
     description: "A modern, responsive real estate site built with React for dynamic, component-based architecture and Tailwind CSS for clean, utility-first styling.",
     technologies: ["React", "Tailwind Css"],
     github: "https://github.com/Giginac/RealEstate_ReactApp",
@@ -19,59 +25,33 @@ const projects = [
     image: portfolio
   },
   {
-    id: 2,
-    title: "Fitness Website",
-    description: "The site includes multiple sections such as a hero banner, membership plans, testimonials. Emphasis was placed on user engagement with subtle motion effects.",
+    id: 3,
+    title: "Fitness center",
+    description: "The Fitness site includes multiple sections such as a hero banner, membership plans, testimonials. Emphasis was placed on user engagement with subtle motion effects.",
     technologies: ["React", "Framer motion", "Tailwind CSS"],
     github: "https://github.com/Giginac/GymWebsite_React",
     demo: "https://www.fitnesscenter.space/",
     image: portfolio1
   },
   {
-    id: 3,
-    title: "E-Commerce Site",
+    id: 4,
+    title: "Diorra Jewels",
     description:"E-commerce Shopify Site designed for a modern jewelry brand. It features intuitive navigation, secure checkout, mobile responsiveness, and elegant product showcases.",
-    technologies: ["Shopify development", "Liquid Html", "HTML5", "CSS3"],
+    technologies: ["Shopify", "Liquid Html", "HTML5", "CSS3"],
     github: "",
     demo: "https://www.diorra.store/?pb=0",
     image: portfolio2
   },
-  {
-    id: 4,
-    title: "Portfolio",
-    description: "clean, intuitive, and interactive portfolio site. Built with React, Tailwind, Three.js, and Framer Motion, blends thoughtful design with dynamic, immersive tech.",
-    technologies: ["React", "Framer Motion", "Three.js", "Tailwind Css"],
-    github: "https://github.com/Giginac/UXportfolio_React",
-    demo: "https://u-xportfolio-react-9ok2.vercel.app/",
-    image: portfolio3
-  },
-  {
-    id: 5,
-    title: "Todo Application",
-    description: "The React app features for adding, editing, deleting, and marking tasks as complete. State management is handled using React's built-in hooks",
-    technologies: ["ReactJS", "React Hooks"],
-    github: "https://github.com/Giginac/ReactTodoApp",
-    demo: "https://giginac.github.io/ReactTodoApp/",
-    image: portfolio4
-  },
-  {
-    id: 6,
-    title: "Restaurent Website",
-    description: "A visually appealing restaurant website crafted using HTML, CSS3, and JavaScript. It combines elegant design with interactive features to enhance the dining brand’s online presence.",
-    technologies: ["Html5", "CSS3", "JavaScript"],
-    github: "https://github.com/Giginac/RestaurentApp",
-    demo: "https://giginac.github.io/RestaurentApp/",
-    image: portfolio5
-  },
-  {
-    id: 7,
-    title: "Coffee shop Website ",
-    description: "The site includes beautifully designed sections such as a hero banner, featured brews, menu display, customer reviews, and a contact form giving awesome user experience",
-    technologies: [, "HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/Giginac/CoffeeShopApp",
-    demo: "https://giginac.github.io/CoffeeShopApp/",
-    image: portfolio6
-  }
+  // {
+  //   id: 5,
+  //   title: "Designer Portfolio",
+  //   description: "clean, intuitive, and interactive portfolio site. Built with React, Tailwind, Three.js, and Framer Motion, blends thoughtful design with dynamic, immersive tech.",
+  //   technologies: ["React", "Framer Motion", "Three.js", "Tailwind Css"],
+  //   github: "https://github.com/Giginac/UXportfolio_React",
+  //   demo: "https://u-xportfolio-react-9ok2.vercel.app/",
+  //   image: portfolio3
+  // },
+  
 ];
 
 const Projects = () => {
@@ -99,7 +79,7 @@ const Projects = () => {
         {/* Header */}
         <div className="text-center mb-16 ">
           <h2 className="text-3xl font-bold text-gray-100 mb-2">
-            My <span className="text-yellow-500">Works</span>
+            Latest <span className="text-yellow-500">Works</span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
             Here are some of my recent works and contributions
@@ -161,17 +141,17 @@ const Projects = () => {
 
                   {/* Links */}
                   <div className="flex space-x-4">
-                    <a 
+                    {/* <a 
                       href={project.github} target="_blank"
                       className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
                     >
                       <FiGithub className="mr-2" /> Code
-                    </a>
+                    </a> */}
                     <a 
                       href={project.demo} target="-blank"
                       className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
                     >
-                      <FiExternalLink className="mr-2" /> Demo
+                      <FiExternalLink className="mr-2" /> Live Demo
                     </a>
                   </div>
                 </div>

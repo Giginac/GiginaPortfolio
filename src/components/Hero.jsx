@@ -4,7 +4,7 @@ import facebook from '../assets/facebook.png';
 import github from '../assets/github.png'; 
 import linkedin from '../assets/linkedin.png'; 
 import instagram from '../assets/instagram.png'; 
-import Gigi from '../assets/Gigina_FrontEndDeveloper_CV.pdf'; 
+import Gigi from '../assets/Gigina_WFrontendDeveloper_CV.pdf'; 
 
 /**
  * Hero Component - The main banner section of the portfolio
@@ -41,18 +41,16 @@ export default function Hero() {
               data-aos-delay="400"
               aria-label="Social media links"
             >
-              <a href="#" aria-label="Facebook profile">
+              {/* <a href="#" aria-label="Facebook profile">
                 <img src={facebook} alt="Facebook" className="w-14 h-14 hover:scale-110 transition-transform" />
-              </a>
+              </a> */}
               <a href="https://github.com/Giginac"  target="_blank" aria-label="GitHub profile">
                 <img src={github} alt="GitHub" className="w-14 h-14 hover:scale-110 transition-transform" />
               </a>
               <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="LinkedIn profile">
                 <img src={linkedin} alt="LinkedIn" className="w-14 h-14 hover:scale-110 transition-transform" />
               </a>
-              <a href="#" aria-label="Instagram profile">
-                <img src={instagram} alt="Instagram" className="w-14 h-14 hover:scale-110 transition-transform" />
-              </a>
+              
             </div>
 
             {/* Headings */}
@@ -60,21 +58,21 @@ export default function Hero() {
               Hi! I'm <span className="text-yellow-500">Gigina Rajesh</span>
             </h1>
             <h2 className="sm:text-3xl mb-4 font-bold text-gray-200">
-              Front End Software Engineer
+              Front End Developer
             </h2>
             
             {/* Description */}
             <p className="mb-8 leading-relaxed text-white max-w-lg">
-            Technically sound professional with 4+ years of experience in building dynamic and responsive web applications.
-            I am skilled at transforming complex design requirements into performant, user-friendly interactive interfaces with
-             modern JavaScript frameworks.
+            I’m a Front-End Developer with 4+ years of experience building responsive, user-centric web applications and 
+            eCommerce platforms. I specialize in Webflow, Shopify and React focusing on performance optimization, seamless API integrations, and clean, 
+            intuitive UI/UX.
             </p>
 
             {/* Call-to-Action Button */}
             <div className="flex justify-center">
               <a 
                 href={Gigi} 
-                download="Gigina_FrontEndDeveloper_CV.pdf"
+                download="Gigina_WFrontendDeveloper_CV.pdf"
                 className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 
                 focus:outline-none hover:bg-yellow-400 rounded-full text-lg
                 hover:shadow-[0_0_20px_rgba(255,100,100,0.5)] transition-all"
